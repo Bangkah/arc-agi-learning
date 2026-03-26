@@ -35,5 +35,5 @@ The Abstraction and Reasoning Corpus (ARC) is a benchmark designed to evaluate a
 
 ARC is not about deep learning scale, but about discovering rules from small examples and applying them to new problems. ([GitHub][2])
 
-[1]: https://epoch.ai/benchmarks/arc-agi?utm_source=chatgpt.com "ARC AGI v1 | Epoch AI"
-[2]: https://github.com/fchollet/ARC-AGI?utm_source=chatgpt.com "GitHub - fchollet/ARC-AGI: The Abstraction and Reasoning Corpus"
+[1]: https://epoch.ai/benchmarks/arc-agi? "ARC AGI v1 | Epoch AI"
+[2]: https://github.com/fchollet/ARC-AGI? "GitHub - fchollet/ARC-AGI: The Abstraction and Reasoning Corpus"
