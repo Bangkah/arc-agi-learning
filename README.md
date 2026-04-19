@@ -1,39 +1,46 @@
-# ARC AGI Learning Journey 
 
-This repository documents my journey participating in the ARC Prize 2026 on Kaggle.
+# ARC Prize 2026 – ARC-AGI-2 Submission
+
+This repository contains my solutions and experiments for the ARC Prize 2026 competition on Kaggle.
 
 ## About ARC
 
-The Abstraction and Reasoning Corpus (ARC) is a benchmark designed to evaluate an AI system’s ability to reason and generalize to unseen problems, not just memorize patterns. ([Epoch AI][1])
+The Abstraction and Reasoning Corpus (ARC) is a benchmark to evaluate AI’s ability to reason and generalize to novel, human-solvable tasks. ([Epoch AI][1])
 
-## Goals
+## Project Goals
 
-* Learn reasoning-based AI
-* Build rule-based and program synthesis solutions
-* Improve generalization ability
+- Learn and implement reasoning-based AI
+- Build rule-based and programmatic solvers
+- Achieve generalization to unseen ARC tasks
 
-## 📊 Progress
+## Progress
 
-### Day 1
+- ✅ Joined ARC Prize 2026
+- ✅ Built and submitted baseline model (zero output)
+- ✅ Upgraded to a simple rule-based model (color mapping)
+- ✅ Submission pipeline matches required JSON format
+- ✅ Automated format check and output verification
 
-* Joined ARC Prize 2026
-* Built baseline model (zero output)
-* Submitted first solution
+## Tech Stack
 
-## ⚙️ Tech Stack
+- Python 3
+- NumPy
 
-* Python
-* NumPy
+## How to Use
+
+1. Run the notebook `arc_baseline_zero_model.ipynb`.
+2. The notebook will generate `submission.json` in the required format for Kaggle.
+3. (Optional) Use the provided evaluation utilities to test accuracy on the validation set.
 
 ## Next Steps
 
-* Solve ARC tasks manually
-* Build rule-based solver
-* Explore program synthesis approach
+- Add more advanced rule-based and pattern-based reasoning
+- Explore program synthesis and learning-based approaches
+- Visualize and analyze model predictions
 
-## Insight
+## Insights
 
-ARC is not about deep learning scale, but about discovering rules from small examples and applying them to new problems. ([GitHub][2])
+ARC is about discovering and applying rules from small examples, not just scaling deep learning. Generalization and reasoning are key. ([GitHub][2])
 
 [1]: https://epoch.ai/benchmarks/arc-agi? "ARC AGI v1 | Epoch AI"
 [2]: https://github.com/fchollet/ARC-AGI? "GitHub - fchollet/ARC-AGI: The Abstraction and Reasoning Corpus"
